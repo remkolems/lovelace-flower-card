@@ -33,8 +33,10 @@ class FlowerCard extends cardTools.LitElement {
       height: 72px;
     }
     .header > img {
+      border-radius: 50%;
       width: 88px;
-      border-radius: var(--ha-card-border-radius, 2px);
+      height: 88px;
+      object-fit: cover;
       margin-left: 16px;
       margin-right: 16px;
       margin-top: -32px;
