@@ -7,7 +7,7 @@ import json
 filename = sys.argv[1]
 
 data = {}
-with open(filename) as csvfile:
+with open(filename, encoding='UTF8') as csvfile:
     reader = csv.reader(csvfile)
     for ln, line in enumerate(reader):
         if ln > 0:
